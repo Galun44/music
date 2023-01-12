@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="player">
+        <div class="dashboard">
+            <header class="heading">
+                <i class="fa-solid fa-chevron-down"></i>
+                <div class="header-text">
+                    <h3>Now playing</h3>
+                    <h2>Music name</h2>
+                    <h4>Singer</h4>
+                </div>
+                <i class="fa-solid fa-plus"></i>
+            </header>
+            <div class="cd">
+                <div class="cd-thumb" style="background-image: url('./assets/img/co-nhu-khong-co.jpg')">
+                </div>
+            </div>
+            <div class="control">
+                <div class="btn btn-repeat">
+                    <i class="fa-solid fa-rotate-right"></i>
+                </div>
+                <div class="btn btn-prev">
+                    <i class="fa-solid fa-backward-step"></i>
+                </div>
+                <div class="btn btn-toggle-play">
+                    <i class="fa-solid fa-play icon-play"></i>
+                    <i class="fa-solid fa-pause icon-pause"></i>
+                </div>
+                <div class="btn btn-next">
+                    <i class="fa-solid fa-forward-step"></i>
+                </div>
+                <div class="btn btn-random">
+                    <i class="fa-solid fa-shuffle"></i>
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-area">
+                    <div class="progress-bar">
+                        <audio src="" class="audio"></audio>
+                    </div>
+                    <div class="song-timer">
+                        <span class="current-time">
+                            0:00
+                        </span>
+                        <span class="max-duration">
+                            0:00
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="playlist">
+            <div class="song">
+                <div class="song-thumb" style="background-image: url('./assets/img/chay-ngay-di.jpg')">
+                </div>
+                <div class="body">
+                    <h2>Music name</h2>
+                    <h4>Singer</h4>
+                </div>
+                <div class="option">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+            </div>
+            <div class="song active">
+                <div class="song-thumb" style="background-image: url('./assets/img/chung-ta-khong-thuoc-ve-nhau.jpg')">
+                </div>
+                <div class="body">
+                    <h2>Music name</h2>
+                    <h4>Singer</h4>
+                </div>
+                <div class="option">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
